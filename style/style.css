@@ -1,0 +1,364 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.nav{
+    margin-top: 30px;
+}
+.ul{
+    display: flex;
+    align-items: center;
+}
+.navschool{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.navbutton{
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+.navlink1{
+    text-decoration: none;
+    color: rgb(254, 163, 1);
+}
+.text-container h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.navlink2{
+    text-decoration: none;
+    color:rgb(1, 172, 253);
+}
+.navlink3{
+    text-decoration: none;
+    color:rgb(5, 212, 223);
+}
+.navlink4{
+    text-decoration: none;
+    color:rgb(93, 88, 239);
+}
+.navbutton{
+    text-align: center;
+    color: white;
+    background-color: rgb(254, 163, 1);
+    width: 197px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    display: grid;
+    margin-right: 0px;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 30px;
+}
+.menu-icon{
+    display: none;
+}
+.banner{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    
+}
+.text-container p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.enroll{
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+.title1{
+    background-image: url(../assets/bg.png);
+    margin-top: 60px;
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    margin-top: 80px;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+.card1{
+    border-radius: 18px;
+    border: 0.94px solid rgb(222, 245, 255);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding: 30px;
+}
+.card2{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding: 30px;
+
+}
+.card3{
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding: 30px;
+}
+.card1 img,
+.card1 h3,
+.card1 p,
+.card2 img,
+.card2 h3,
+.card2 p,
+.card3 img,
+.card3 h3,
+.card3 p{
+    margin-bottom: 40px;
+}
+.readmore1{
+    width: 150px;
+    height: 19px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    color: rgb(100, 200, 255);
+}
+.readmore2{
+    width: 150px;
+    height: 19px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    color:rgb(240, 170, 0);
+}
+.readmore3{
+    width: 150px;
+    height: 19px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    color:rgb(135, 0, 255);
+}
+.button i{
+    background-color: rgb(254, 163, 1);
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+}
+.title2{
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    margin-top: 60px;
+    
+}
+.title2-container{
+    margin-left: 140px;
+    margin-right: 140px;
+
+}
+.two-image1,
+.two-image2s,
+.two-image21,
+.two-image22{
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 16px;
+    height: 300px;
+}
+.two-image,
+.two-image2,
+.two-image21,
+.two-image22 img{
+    width: 100%;
+}
+
+.stories{
+    display: flex;
+    margin-top: 80px;
+    gap: 15px;
+}
+
+.stories img{
+    border-radius: 16px 16px 0 0;
+    width: 100%;
+    gap: 20px;
+}
+.four-image{
+    display: flex;
+    gap: 15px;
+    
+}
+
+#date-box1{
+    background-color: rgb(60, 216, 232);
+    border-radius: 48px;
+    width: 175px;
+    height: 48px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: -25px;
+    position: absolute;
+    
+}
+#date-box1 p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+#date-box2{
+    background-color: rgb(60, 216, 232);
+    border-radius: 48px;
+    width: 175px;
+    height: 48px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: -25px;
+    position: absolute;
+}
+#date-box2 p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+#date-box2{
+    background-color:rgb(149, 178, 38);
+    border-radius: 48px;
+    width: 175px;
+    height: 48px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -25px;
+    position: absolute;
+}
+#date-box2 p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+#date-box3{
+    background-color:rgb(149, 178, 38);
+    border-radius: 48px;
+    width: 175px;
+    height: 48px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -25px;
+    position: absolute;
+}
+#date-box3 p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+#date-box4{
+    background-color: rgb(149, 178, 38);
+    border-radius: 48px;
+    width: 175px;
+    height: 48px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -25px;
+    position: absolute;
+}
+#date-box4 p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+#date-box5{
+    background-color:rgb(93, 88, 240);
+    border-radius: 48px;
+    width: 175px;
+    height: 48px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -25px;
+    position: absolute;
+}
+#date-box5 p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.text-container{
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 16px 16px 0 0;
+}
+.one-image{
+    background-color: white;
+    
+}
+.four-image h3{
+    margin-top: 30px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 576px) {
+    .navschool h2,
+    .menu,
+    .navbutton{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        margin-left: 180px;
+    }
+    .banner{
+        flex-direction: column;
+        text-align: center;
+    }
+    .pic-container{
+        order: -1;
+    }
+    .one-image{
+        display: none;
+    }
+    .card{
+        flex-direction: column;
+    }
+    
+
+}
