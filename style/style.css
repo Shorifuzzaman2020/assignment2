@@ -398,6 +398,12 @@ footer{
     .menu-icon{
         display: block;
         margin-right: -90px;
+        margin-bottom: 10px;
+    }
+    .border{
+        border-bottom: 2px solid rgb(254, 163, 1);
+        width: 576px;
+        margin-top: 15px;
     }
     .navschool{
         margin-right: 300px;
@@ -405,6 +411,7 @@ footer{
     .banner{
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
     .pic-container{
         order: -1;
