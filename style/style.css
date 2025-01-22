@@ -350,7 +350,7 @@
     font-size: 20px;
     font-weight: 500;
 }
-.footer{
+.footer .footer-mobile-view{
     display: flex;
 }
 .kidsdes{
@@ -359,14 +359,11 @@
 }
 .link{
     display: flex;
-    margin-right: 250px;
     gap: 10px;
     margin-top: 15px;
 }
 .aboutschool li{
     list-style: none;
-    margin-right: 250px;
-    
 }
 footer{
     background-color: rgb(1, 172, 253);
@@ -378,15 +375,10 @@ footer{
     border-radius: 22px;
     
 }
-.footer-header{
-    margin-left: -170px;
-}
 .paragraph{
     margin-top: 30px;
-    margin-left: 180px;
-    width: 400px;
-    height: 100px;
     color: white;
+    flex: 2;
 }
 
 @media screen and (max-width: 576px) {
@@ -397,8 +389,11 @@ footer{
     }
     .menu-icon{
         display: block;
-        margin-right: -90px;
+        margin-left: 80px;
         margin-bottom: 10px;
+    }
+    .nav .ul .menu-icon{
+        margin-right: 0px;
     }
     .border{
         border-bottom: 2px solid rgb(254, 163, 1);
@@ -408,10 +403,24 @@ footer{
     .navschool{
         margin-right: 300px;
     }
+    .navschool img{
+        margin-left: 50px;
+    }
     .banner{
         flex-direction: column;
         text-align: center;
         align-items: center;
+    }
+    .title1{
+        width: 576px;
+        margin-left: 0px;
+    }
+    .title2{
+        width: 576px;
+        margin-left: 0px;
+    }
+    .banner{
+        width: 576px;
     }
     .pic-container{
         order: -1;
@@ -419,41 +428,39 @@ footer{
     .one-image{
         display: none;
     }
-    .card,
-    .footer{
-        flex-direction: column;
-    }
-    .footer{
-        text-align: left;
-    }
-    .kidsdes{
-        margin-right: 20px;
-    }
-    .footer-image{
-        margin-left: 40px;
-    }
-    .paragraph{
-        margin-left: 40px;
-    }
-    .link{
-        margin-left: 40px;
-    }
-    .h3{
-        margin-left: 40px;
-    }
-    .title2 .four-image{
-        margin-left: -90px;
-    }
     .four-image{
         display: grid;
         
         grid-template-columns: repeat(4,1fr);
     }
+    .card{
+        flex-direction: column;
+    }
+    
     .title1 .button{
         display: none;
     }
-    .card{
-        margin-left: -40px;
+    footer{
+        width: 576px;
+    }
+    .footer .footer-mobile-view{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        justify-content: left;
+    }
+    .paragraph{
+        margin-left: 30px;
+    }
+    .aboutschool{
+        margin-left: -155px;
+        margin-top: 20px;
+    }
+    .link{
+        margin-left: -30px;
+    }
+    .h3{
+        margin-top: 20px;
+        margin-left: -30px;
     }
     
 
